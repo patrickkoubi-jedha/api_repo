@@ -1,0 +1,68 @@
+fast_api_demo_app_machine_learning/
+api-env/
+
+# ====================== Environnements virtuels ======================
+api-env/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ====================== Données et fichiers volumineux ======================
+*.csv
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# ====================== MLflow et sorties ======================
+mlruns/
+outputs/
+models/
+artifacts/
+
+# ====================== Notebooks et dev ======================
+*.ipynb
+*.ipynb_checkpoints/
+
+# ====================== Secrets et sécurité ======================
+.env
+secrets.sh
+*.pem
+*.key
+*.crt
+credentials.json
+
+# ====================== Fichiers système ======================
+.DS_Store
+Thumbs.db
+*.log
+logs/
+
+# ====================== IDE et éditeurs ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ====================== Docker ======================
+.dockerenv
+Dockerfile.*
+docker-compose.override.yml
+
+# ====================== Autres fichiers temporaires ======================
+*.tmp
+*.temp
+*.bak
+*.backup
